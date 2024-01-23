@@ -1,0 +1,25 @@
+### profile
+
+GET http://localhost:3000/profile
+Authorization: Bearer eyJhbGciOiJIUzI1NiJ9.dGFtaWw.dlNQSOlrRveVWpG4QAAHGQF9rNyqNVr_SrWveAYvJSk
+
+### login
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "tamil",
+    "password": "qwer"
+}
+
+### register
+
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "username": "tamil",
+    "password": "qwer",
+    "displayName": "Tamil Kumaran"
+}
